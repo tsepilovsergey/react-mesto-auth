@@ -1,0 +1,32 @@
+@import url('./_close/header__button-menu_close.css');
+
+.header__button-menu {
+    width: 24px;
+    height: 24px;
+    padding-right: 30px;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.header__button-menu:hover {
+    opacity: 0.6;
+}
+
+.header__button-menu span {
+    height: 3px;
+    background-color: white;
+    width: 100%;
+    margin-top: 6px;
+}
+
+.header__button-menu span:first-of-type {
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .header__button-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

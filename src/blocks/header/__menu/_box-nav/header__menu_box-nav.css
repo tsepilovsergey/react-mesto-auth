@@ -1,0 +1,7 @@
+.header__menu_box-nav {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    order: 1;
+}

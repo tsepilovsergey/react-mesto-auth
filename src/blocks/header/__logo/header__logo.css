@@ -1,0 +1,14 @@
+@import url('./_box-menu/header__logo_box-menu.css');
+
+.header__logo {
+    width: 142px;
+    height: 33px;
+}
+
+@media screen and (max-width: 767px) {
+    .header__logo {
+        width: 103px;
+        height: 24px;
+        padding-left: 30px;   
+    }
+}

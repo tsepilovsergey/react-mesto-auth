@@ -1,0 +1,15 @@
+@import url('./__title/sign__title.css');
+@import url('./__form/sign__form.css');
+@import url('./__input/sign__input.css');
+@import url('./__text/sign__text.css');
+@import url('./__button/sign__button.css');
+@import url('./__link/sign__link.css');
+
+.sign {
+    max-width: 358px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 0 30px 0 30px;
+}

@@ -1,0 +1,9 @@
+@media screen and (max-width: 767px) {
+    .header__info_box-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-bottom: 1px solid #545454b3;
+        padding: 12px 0 40px 0;
+    }
+}

@@ -1,0 +1,7 @@
+@import url('./_box-nav/header__menu_box-nav.css');
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
