@@ -232,7 +232,7 @@ function App() {
 
         <Switch>
           <ProtectedRoute
-            exact
+            exact 
             path="/"
             loggedId={loggedId}
             component={Main}
