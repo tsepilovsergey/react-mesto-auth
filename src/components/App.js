@@ -128,7 +128,7 @@ function App() {
 
   React.useEffect(() => {
     handleCheckToken();
-  });
+  }, []);
 
   function closeAllPopups() {
     setEditProfilePopupOpen(false);
